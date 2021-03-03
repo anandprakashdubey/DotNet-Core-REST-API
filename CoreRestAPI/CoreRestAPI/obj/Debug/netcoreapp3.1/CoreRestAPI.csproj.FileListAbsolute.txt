@@ -23,3 +23,5 @@ D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\DBLayer.pdb
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\DataModel.pdb
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\CoreRestAPI.csprojAssemblyReference.cache
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\CoreRestAPI.csproj.CopyComplete
+D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

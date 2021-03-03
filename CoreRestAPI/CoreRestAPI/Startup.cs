@@ -25,6 +25,13 @@ namespace CoreRestAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            //AddAutoMapper will scan all the profiles which contains mapping functionality
+            //AppDomain.CurrentDomain.GetAssemblies() loads all the profiles in current domain [check profile folder].
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+
             services.AddControllers(setupAction => {
                 setupAction.ReturnHttpNotAcceptable = true;
             }).AddXmlDataContractSerializerFormatters();
