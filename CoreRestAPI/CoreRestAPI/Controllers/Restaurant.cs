@@ -63,5 +63,26 @@ namespace CoreRestAPI.Controllers
  
             return Ok(Mapper.Map<IEnumerable<RestaurantViewModel>>(_data));
         }
+
+        [HttpGet("{cusineType}/restaurants")]
+        public IActionResult GetRestaurantByCusine(string cusineType)
+        {
+            var _data = RestaurantService.GetRestaurantByCusine(cusineType).ToList();
+            if (_data.Count == 0)
+                return NotFound();
+
+            return Ok(Mapper.Map<IEnumerable<RestaurantViewModel>>(_data));
+        }
+
+        [HttpGet("{cusineType}/restaurants/{dishName}")]
+        public IActionResult GetRestaurantByNameAndCusine(string cusineType, string dishName)
+        {
+            var _data = RestaurantService.GetRestaurantByNameAndCusine(cusineType, dishName).ToList();
+            if (_data.Count == 0)
+                return NotFound();
+
+            return Ok(Mapper.Map<IEnumerable<RestaurantViewModel>>(_data));
+        }
+
     }
 }

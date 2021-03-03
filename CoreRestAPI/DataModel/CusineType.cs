@@ -9,6 +9,7 @@ namespace DataModel
         None,
         Mexican,
         Italian,
-        Indian
+        Indian,
+        American
     }
 }

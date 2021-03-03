@@ -12,5 +12,7 @@ namespace DBLayer
         Restaurant UpdateRestaurant(Restaurant res);
         Restaurant AddRestaurant(Restaurant res);
         Restaurant DeleteRestaurant(int Id);
+        IEnumerable<Restaurant> GetRestaurantByCusine(string cusineType);
+        IEnumerable<Restaurant> GetRestaurantByNameAndCusine(string cusineType, string Name);
     }
 }
