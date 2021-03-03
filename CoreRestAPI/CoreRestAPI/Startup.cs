@@ -1,6 +1,7 @@
 using DBLayer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -32,7 +33,8 @@ namespace CoreRestAPI
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 
-            services.AddControllers(setupAction => {
+            services.AddControllers(setupAction =>
+            {
                 setupAction.ReturnHttpNotAcceptable = true;
             }).AddXmlDataContractSerializerFormatters();
             /*
@@ -48,6 +50,18 @@ namespace CoreRestAPI
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+            }
+            else
+            {
+                //This is how we can customize the exception in prod
+                app.UseExceptionHandler(appBuilder =>
+                {
+                    appBuilder.Run(async context =>
+                    {
+                        context.Response.StatusCode = 500;
+                        await context.Response.WriteAsync("An unexpected fault happened. Try again later");
+                    });
+                });
             }
 
             app.UseRouting();

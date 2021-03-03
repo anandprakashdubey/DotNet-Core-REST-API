@@ -25,6 +25,7 @@ namespace CoreRestAPI.Controllers
         }
 
         [HttpGet]
+        //[HttpHead] Head is same as GET of API but it does not return any body, it is just to check connection or resource exists.
         public ActionResult<IEnumerable<RestaurantViewModel>> GetRestaurant()
         {
             var _data = RestaurantService.GetRestaurantByName(null).ToList();
@@ -77,6 +78,7 @@ namespace CoreRestAPI.Controllers
         [HttpGet("{cusineType}/restaurants/{dishName}")]
         public IActionResult GetRestaurantByNameAndCusine(string cusineType, string dishName)
         {
+            //throw new Exception("Boom");  --> Example of exception handelling in prod, refer startup
             var _data = RestaurantService.GetRestaurantByNameAndCusine(cusineType, dishName).ToList();
             if (_data.Count == 0)
                 return NotFound();
