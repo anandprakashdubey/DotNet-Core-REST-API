@@ -1,4 +1,5 @@
-﻿using DBLayer;
+﻿using CoreRestAPI.ViewModel;
+using DBLayer;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -16,12 +17,31 @@ namespace CoreRestAPI.Controllers
         public Restaurant(IRestaurantData RestaurantService)
         {
             this.RestaurantService = RestaurantService;
-        }      
+        }
 
         [HttpGet]
-        public IActionResult GetRestaurant()
+        public ActionResult<IEnumerable<RestaurantViewModel>> GetRestaurant()
         {
-            return Ok(RestaurantService.GetRestaurantByName(null));
+            var _data = RestaurantService.GetRestaurantByName(null).ToList();
+
+            /* 
+             * 
+             * Below approach is not good for Converting object to different object.
+             * Hence we need to use AutoMapper tool.
+             * 
+             */
+            var vm = new List<RestaurantViewModel>();
+            foreach (var item in _data)
+            {
+                vm.Add(new RestaurantViewModel
+                {
+                    Id = item.Id,
+                    OrignalName = item.Name,
+                    NameWithLocation = $"{item.Name} from {item.Location}",
+                    Cusine = $"Authentic {item.Cusine}"
+                });
+            }
+            return Ok(vm);
         }
 
         [HttpGet("{restaurantName}")]
@@ -31,7 +51,18 @@ namespace CoreRestAPI.Controllers
             if (_data.Count == 0)
                 return NotFound();
 
-            return Ok(_data);
+            var vm = new List<RestaurantViewModel>();
+            foreach (var item in _data)
+            {
+                vm.Add(new RestaurantViewModel
+                {
+                    Id = item.Id,
+                    OrignalName = item.Name,
+                    NameWithLocation = $"{item.Name} from {item.Location}",
+                    Cusine = $"Authentic {item.Cusine}"
+                });
+            }
+            return Ok(vm);
         }
     }
 }
