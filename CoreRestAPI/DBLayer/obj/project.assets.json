@@ -11,19 +11,6 @@
         "runtime": {
           "bin/placeholder/DataModel.dll": {}
         }
-      },
-      "DBLayer/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "DataModel": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/DBLayer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DBLayer.dll": {}
-        }
       }
     }
   },
@@ -32,16 +19,11 @@
       "type": "project",
       "path": "../DataModel/DataModel.csproj",
       "msbuildProject": "../DataModel/DataModel.csproj"
-    },
-    "DBLayer/1.0.0": {
-      "type": "project",
-      "path": "../DBLayer/DBLayer.csproj",
-      "msbuildProject": "../DBLayer/DBLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "DBLayer >= 1.0.0"
+      "DataModel >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -50,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DotNet\\API\\CoreRestAPI\\CoreRestAPI\\CoreRestAPI.csproj",
-      "projectName": "CoreRestAPI",
-      "projectPath": "D:\\DotNet\\API\\CoreRestAPI\\CoreRestAPI\\CoreRestAPI.csproj",
+      "projectUniqueName": "D:\\DotNet\\API\\CoreRestAPI\\DBLayer\\DBLayer.csproj",
+      "projectName": "DBLayer",
+      "projectPath": "D:\\DotNet\\API\\CoreRestAPI\\DBLayer\\DBLayer.csproj",
       "packagesPath": "C:\\Users\\anand\\.nuget\\packages\\",
-      "outputPath": "D:\\DotNet\\API\\CoreRestAPI\\CoreRestAPI\\obj\\",
+      "outputPath": "D:\\DotNet\\API\\CoreRestAPI\\DBLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\anand\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,8 +53,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\DotNet\\API\\CoreRestAPI\\DBLayer\\DBLayer.csproj": {
-              "projectPath": "D:\\DotNet\\API\\CoreRestAPI\\DBLayer\\DBLayer.csproj"
+            "D:\\DotNet\\API\\CoreRestAPI\\DataModel\\DataModel.csproj": {
+              "projectPath": "D:\\DotNet\\API\\CoreRestAPI\\DataModel\\DataModel.csproj"
             }
           }
         }
@@ -97,9 +79,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

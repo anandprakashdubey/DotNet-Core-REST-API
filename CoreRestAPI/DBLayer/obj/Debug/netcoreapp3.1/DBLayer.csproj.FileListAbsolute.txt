@@ -1,0 +1,12 @@
+D:\DotNet\API\CoreRestAPI\DBLayer\bin\Debug\netcoreapp3.1\DBLayer.deps.json
+D:\DotNet\API\CoreRestAPI\DBLayer\bin\Debug\netcoreapp3.1\DBLayer.dll
+D:\DotNet\API\CoreRestAPI\DBLayer\bin\Debug\netcoreapp3.1\DBLayer.pdb
+D:\DotNet\API\CoreRestAPI\DBLayer\bin\Debug\netcoreapp3.1\DataModel.dll
+D:\DotNet\API\CoreRestAPI\DBLayer\bin\Debug\netcoreapp3.1\DataModel.pdb
+D:\DotNet\API\CoreRestAPI\DBLayer\obj\Debug\netcoreapp3.1\DBLayer.csprojAssemblyReference.cache
+D:\DotNet\API\CoreRestAPI\DBLayer\obj\Debug\netcoreapp3.1\DBLayer.AssemblyInfoInputs.cache
+D:\DotNet\API\CoreRestAPI\DBLayer\obj\Debug\netcoreapp3.1\DBLayer.AssemblyInfo.cs
+D:\DotNet\API\CoreRestAPI\DBLayer\obj\Debug\netcoreapp3.1\DBLayer.csproj.CoreCompileInputs.cache
+D:\DotNet\API\CoreRestAPI\DBLayer\obj\Debug\netcoreapp3.1\DBLayer.csproj.CopyComplete
+D:\DotNet\API\CoreRestAPI\DBLayer\obj\Debug\netcoreapp3.1\DBLayer.dll
+D:\DotNet\API\CoreRestAPI\DBLayer\obj\Debug\netcoreapp3.1\DBLayer.pdb

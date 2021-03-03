@@ -1,3 +1,4 @@
+using DBLayer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -24,7 +25,14 @@ namespace CoreRestAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddControllers(setupAction => {
+                setupAction.ReturnHttpNotAcceptable = true;
+            }).AddXmlDataContractSerializerFormatters();
+            /*
+             * AddXmlDataContractSerializerFormatters allow response in XML if requested in header.
+             * setupAction.ReturnHttpNotAcceptable allows to throw error if use request the response in unknown format like other than JSON AND XML which system doesnt know.
+             */
+            services.AddSingleton<IRestaurantData, InMemoryRestaurantData>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
