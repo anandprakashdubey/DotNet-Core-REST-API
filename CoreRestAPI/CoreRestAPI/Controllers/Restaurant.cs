@@ -55,13 +55,13 @@ namespace CoreRestAPI.Controllers
             return Ok(Mapper.Map<IEnumerable<RestaurantViewModel>>(_data));
         }
 
-        [HttpGet("{restaurantName}")]
+        [HttpGet("{restaurantName}", Name = "GetRestaurantByName")]
         public IActionResult GetRestaurant(string restaurantName)
         {
             var _data = RestaurantService.GetRestaurantByName(restaurantName).ToList();
             if (_data.Count == 0)
                 return NotFound();
- 
+
             return Ok(Mapper.Map<IEnumerable<RestaurantViewModel>>(_data));
         }
 
@@ -86,5 +86,16 @@ namespace CoreRestAPI.Controllers
             return Ok(Mapper.Map<IEnumerable<RestaurantViewModel>>(_data));
         }
 
+        [HttpPost]
+        public IActionResult CreateRestaurant(DataModel.Restaurant _restaurant)
+        {
+            if (_restaurant == null)
+                return BadRequest();
+
+            var data = this.RestaurantService.AddRestaurant(_restaurant);
+
+            return CreatedAtRoute("GetRestaurantByName", new { restaurantName = data.Name }, data);
+
+        }
     }
 }
