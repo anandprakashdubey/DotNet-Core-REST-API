@@ -1,0 +1,17 @@
+﻿To install Swagger need to follow below steps- 
+
+We need these pacakges to get swagger running Swashbuckle.AspnetCore.Swagger, Swashbuckle.AspnetCore.SwaggerGen,Swashbuckle.AspnetCore.SwaggerUI, instead of installing all install only 
+Swashbuckle.AspnetCore package only.
+
+Install Swashbuckle.AspnetCore
+
+After required changes - open api specification can be avaialable here - http://localhost:5000/swagger/RestaurantAPIDocumentation/swagger.json
+
+After adding OPENAPI we get so many warning with code 1591 to suppress add #pragma warning disable CS1591 and to restore #pragma warning restore CS1591
+But we can suppress project wise by adding this code in project properties warning code.
+
+We can default response for swagger by adding attribute like - [ProducesResponseType(StatusCodes.Status200OK)], there are so many in list, add accordingly
+
+To know more what we are missing in our API,we can add nuget package API Analyzer ( Mircosoft.AspNetCore.MVC.API.Analyzers) it generates warnings to show what we are missing.
+
+

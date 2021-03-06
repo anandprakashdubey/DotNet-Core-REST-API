@@ -24,6 +24,10 @@ namespace CoreRestAPI.Controllers
             this.Mapper = Mapper;
         }
 
+        /// <summary>
+        /// This method will return List of Restaurant.
+        /// </summary>
+        /// <returns>An ActionResult of Restaurant</returns>
         [HttpGet]
         //[HttpHead] Head is same as GET of API but it does not return any body, it is just to check connection or resource exists.
         public ActionResult<IEnumerable<RestaurantViewModel>> GetRestaurant()
@@ -55,6 +59,14 @@ namespace CoreRestAPI.Controllers
             return Ok(Mapper.Map<IEnumerable<RestaurantViewModel>>(_data));
         }
 
+        /// <summary>
+        /// This method filter out restaurants list with provided name, if parameter is null then it will return full list.
+        /// </summary>
+        /// <param name="restaurantName">This should be the restaurant name</param>
+        /// <returns>An ActionResult of Restaurant</returns>
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         [HttpGet("{restaurantName}", Name = "GetRestaurantByName")]
         public IActionResult GetRestaurant(string restaurantName)
         {

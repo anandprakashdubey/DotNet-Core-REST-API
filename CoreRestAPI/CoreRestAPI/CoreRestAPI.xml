@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoreRestAPI</name>
+    </assembly>
+    <members>
+        <member name="M:CoreRestAPI.Controllers.Restaurant.GetRestaurant">
+            <summary>
+            This method will return List of Restaurant.
+            </summary>
+            <returns>An ActionResult of Restaurant</returns>
+        </member>
+        <member name="M:CoreRestAPI.Controllers.Restaurant.GetRestaurant(System.String)">
+            <summary>
+            This method filter out restaurants list with provided name, if parameter is null then it will return full list.
+            </summary>
+            <param name="restaurantName">This should be the restaurant name</param>
+            <returns>An ActionResult of Restaurant</returns>
+        </member>
+    </members>
+</doc>

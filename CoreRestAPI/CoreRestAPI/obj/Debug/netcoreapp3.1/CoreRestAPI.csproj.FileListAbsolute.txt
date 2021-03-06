@@ -25,3 +25,9 @@ D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\CoreRestAPI.csproj
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\CoreRestAPI.dll
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\CoreRestAPI.pdb
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\CoreRestAPI.genruntimeconfig.cache
+D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\CoreRestAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\CoreRestAPI.xml

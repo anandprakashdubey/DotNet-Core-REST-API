@@ -9,7 +9,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace CoreRestAPI
@@ -42,6 +44,26 @@ namespace CoreRestAPI
              * setupAction.ReturnHttpNotAcceptable allows to throw error if use request the response in unknown format like other than JSON AND XML which system doesnt know.
              */
             services.AddSingleton<IRestaurantData, InMemoryRestaurantData>();
+
+            /* Swagger Configuration */
+            services.AddSwaggerGen(setupAction =>
+            {
+                setupAction.SwaggerDoc(
+                    "RestaurantAPIDocumentation"
+                    , new Microsoft.OpenApi.Models.OpenApiInfo()
+                    {
+                        Title = "Restaurant API",
+                        Version = "1"
+                    });
+
+                //This is to show description in swagger page, but for this add comments on each method by type 3 time /
+                //Update the project properties, build --> XML Documentation file, remove all keep only name.
+                // It will generate description wherever we put comments either properties or method.
+                var xmlFileName = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlFileFullPath = Path.Combine(AppContext.BaseDirectory, xmlFileName);
+                setupAction.IncludeXmlComments(xmlFileFullPath);
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -67,6 +89,18 @@ namespace CoreRestAPI
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseSwagger();
+            app.UseSwaggerUI(setupAction =>
+            {
+                setupAction.SwaggerEndpoint(
+                    "/swagger/RestaurantAPIDocumentation/swagger.json",
+                    "Restaurant API Swagger Page"
+                    );
+
+                setupAction.RoutePrefix = "";  // Currently swagger is available at - http://localhost:5000/swagger/index.html, we want it on root.
+
+            });
 
             app.UseEndpoints(endpoints =>
             {

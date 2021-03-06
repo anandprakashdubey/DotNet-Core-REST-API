@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace CoreRestAPI.ViewModel
 {
+#pragma warning disable CS1591
     public class RestaurantViewModel
     {
         public int Id { get; set; }
@@ -12,4 +13,5 @@ namespace CoreRestAPI.ViewModel
         public string NameWithLocation { get; set; }
         public string Cusine { get; set; }
     }
+#pragma warning restore CS1591
 }
