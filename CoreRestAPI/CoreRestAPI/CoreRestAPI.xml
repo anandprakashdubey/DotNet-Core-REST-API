@@ -4,6 +4,19 @@
         <name>CoreRestAPI</name>
     </assembly>
     <members>
+        <member name="M:CoreRestAPI.Controllers.DishesController.CreateRestaurant(DataModel.Restaurant)">
+            <summary>
+            Create Restaurant, This is part of version 2 API.
+            </summary>
+            <param name="_restaurant"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreRestAPI.Controllers.DishesController.GetDishesList">
+            <summary>
+            Return hardcoded values for version
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:CoreRestAPI.Controllers.Restaurant.GetRestaurant">
             <summary>
             This method will return List of Restaurant.
@@ -16,6 +29,12 @@
             </summary>
             <param name="restaurantName">This should be the restaurant name</param>
             <returns>An ActionResult of Restaurant</returns>
+        </member>
+        <member name="M:CoreRestAPI.Controllers.SecondController.GetVersionList">
+            <summary>
+            Return hardcoded values for version
+            </summary>
+            <returns></returns>
         </member>
     </members>
 </doc>

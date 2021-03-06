@@ -6,8 +6,14 @@ D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\CoreRestAPI.runtim
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\CoreRestAPI.runtimeconfig.dev.json
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\CoreRestAPI.dll
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\CoreRestAPI.pdb
+D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\CoreRestAPI.xml
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Versioning.dll
+D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\DataModel.dll
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\DBLayer.dll
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\DBLayer.pdb
@@ -16,6 +22,7 @@ D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\CoreRestAPI.csproj
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\CoreRestAPI.AssemblyInfoInputs.cache
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\CoreRestAPI.AssemblyInfo.cs
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\CoreRestAPI.csproj.CoreCompileInputs.cache
+D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\CoreRestAPI.MvcApplicationPartsAssemblyInfo.cs
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\CoreRestAPI.MvcApplicationPartsAssemblyInfo.cache
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\staticwebassets\CoreRestAPI.StaticWebAssets.Manifest.cache
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\staticwebassets\CoreRestAPI.StaticWebAssets.xml
@@ -25,9 +32,3 @@ D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\CoreRestAPI.csproj
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\CoreRestAPI.dll
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\CoreRestAPI.pdb
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\CoreRestAPI.genruntimeconfig.cache
-D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
-D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
-D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\CoreRestAPI.MvcApplicationPartsAssemblyInfo.cs
-D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\CoreRestAPI.xml

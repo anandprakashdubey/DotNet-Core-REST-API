@@ -10,7 +10,9 @@ using System.Threading.Tasks;
 
 namespace CoreRestAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Produces("application/json")]
+    //[Route("api/[controller]")]
+    [Route("api/v1.0/[controller]")]
     [ApiController]
     public class Restaurant : ControllerBase
     {
@@ -98,16 +100,16 @@ namespace CoreRestAPI.Controllers
             return Ok(Mapper.Map<IEnumerable<RestaurantViewModel>>(_data));
         }
 
-        [HttpPost]
-        public IActionResult CreateRestaurant(DataModel.Restaurant _restaurant)
-        {
-            if (_restaurant == null)
-                return BadRequest();
+        //[HttpPost]
+        //public IActionResult CreateRestaurant(DataModel.Restaurant _restaurant)
+        //{
+        //    if (_restaurant == null)
+        //        return BadRequest();
 
-            var data = this.RestaurantService.AddRestaurant(_restaurant);
+        //    var data = this.RestaurantService.AddRestaurant(_restaurant);
 
-            return CreatedAtRoute("GetRestaurantByName", new { restaurantName = data.Name }, data);
+        //    return CreatedAtRoute("GetRestaurantByName", new { restaurantName = data.Name }, data);
 
-        }
+        //}
     }
 }

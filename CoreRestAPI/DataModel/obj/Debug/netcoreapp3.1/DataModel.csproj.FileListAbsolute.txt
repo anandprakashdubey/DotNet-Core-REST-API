@@ -6,4 +6,3 @@ D:\DotNet\API\CoreRestAPI\DataModel\obj\Debug\netcoreapp3.1\DataModel.AssemblyIn
 D:\DotNet\API\CoreRestAPI\DataModel\obj\Debug\netcoreapp3.1\DataModel.csproj.CoreCompileInputs.cache
 D:\DotNet\API\CoreRestAPI\DataModel\obj\Debug\netcoreapp3.1\DataModel.dll
 D:\DotNet\API\CoreRestAPI\DataModel\obj\Debug\netcoreapp3.1\DataModel.pdb
-D:\DotNet\API\CoreRestAPI\DataModel\obj\Debug\netcoreapp3.1\DataModel.csprojAssemblyReference.cache
