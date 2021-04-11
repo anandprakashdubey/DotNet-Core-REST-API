@@ -32,3 +32,4 @@ D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\CoreRestAPI.csproj
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\CoreRestAPI.dll
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\CoreRestAPI.pdb
 D:\DotNet\API\CoreRestAPI\CoreRestAPI\obj\Debug\netcoreapp3.1\CoreRestAPI.genruntimeconfig.cache
+D:\DotNet\API\CoreRestAPI\CoreRestAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

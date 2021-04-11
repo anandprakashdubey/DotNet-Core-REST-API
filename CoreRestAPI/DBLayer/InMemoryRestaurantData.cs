@@ -18,7 +18,8 @@ namespace DBLayer
                 new Restaurant  { Id = 3, Name = "Tacos", Cusine = CusineType.Mexican , Location = "Mexican"},
                 new Restaurant  { Id = 4, Name = "Poha Jalebi", Cusine = CusineType.Indian, Location = "Indian" },
                 new Restaurant  { Id = 5, Name = "Chhola Bhatura", Cusine = CusineType.Indian, Location = "Indian" },
-                new Restaurant  { Id = 3, Name = "Ham Burger", Cusine = CusineType.American , Location = "American"},
+                new Restaurant  { Id = 6, Name = "Ham Burger", Cusine = CusineType.American , Location = "American"},
+                new Restaurant  { Id = 7, Name = "Samosa", Cusine = CusineType.Indian , Location = "Indian"},
             };
         }
         public IEnumerable<Restaurant> GetRestaurantByName(string name)
