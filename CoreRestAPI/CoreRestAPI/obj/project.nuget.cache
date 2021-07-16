@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H12PDIB3BEALcCZngUC+0qVO1EYpdnxeoScb23VIoNmHuZlQCQ1QArv82P1yUYwJ1JjpfJmPip9Hys9DBI+0Tw==",
+  "dgSpecHash": "WliLdLhR7u9ynj0QjcNC9Y6vegkwZZoMAJ24wrk/BcdpxwJqKRXQb6LLXSJ+JNXDF6O04F465U/i+ZnOdpT8oQ==",
   "success": true,
-  "projectFilePath": "D:\\DotNet\\API\\CoreRestAPI\\CoreRestAPI\\CoreRestAPI.csproj",
+  "projectFilePath": "D:\\DockerBasedApplication\\DotNet-Core-REST-API\\CoreRestAPI\\CoreRestAPI\\CoreRestAPI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

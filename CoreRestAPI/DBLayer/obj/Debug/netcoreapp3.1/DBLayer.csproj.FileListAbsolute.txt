@@ -10,3 +10,15 @@ D:\DotNet\API\CoreRestAPI\DBLayer\obj\Debug\netcoreapp3.1\DBLayer.csproj.CoreCom
 D:\DotNet\API\CoreRestAPI\DBLayer\obj\Debug\netcoreapp3.1\DBLayer.csproj.CopyComplete
 D:\DotNet\API\CoreRestAPI\DBLayer\obj\Debug\netcoreapp3.1\DBLayer.dll
 D:\DotNet\API\CoreRestAPI\DBLayer\obj\Debug\netcoreapp3.1\DBLayer.pdb
+D:\DockerBasedApplication\DotNet-Core-REST-API\CoreRestAPI\DBLayer\bin\Debug\netcoreapp3.1\DBLayer.deps.json
+D:\DockerBasedApplication\DotNet-Core-REST-API\CoreRestAPI\DBLayer\bin\Debug\netcoreapp3.1\DBLayer.dll
+D:\DockerBasedApplication\DotNet-Core-REST-API\CoreRestAPI\DBLayer\bin\Debug\netcoreapp3.1\DBLayer.pdb
+D:\DockerBasedApplication\DotNet-Core-REST-API\CoreRestAPI\DBLayer\bin\Debug\netcoreapp3.1\DataModel.dll
+D:\DockerBasedApplication\DotNet-Core-REST-API\CoreRestAPI\DBLayer\bin\Debug\netcoreapp3.1\DataModel.pdb
+D:\DockerBasedApplication\DotNet-Core-REST-API\CoreRestAPI\DBLayer\obj\Debug\netcoreapp3.1\DBLayer.csprojAssemblyReference.cache
+D:\DockerBasedApplication\DotNet-Core-REST-API\CoreRestAPI\DBLayer\obj\Debug\netcoreapp3.1\DBLayer.AssemblyInfoInputs.cache
+D:\DockerBasedApplication\DotNet-Core-REST-API\CoreRestAPI\DBLayer\obj\Debug\netcoreapp3.1\DBLayer.AssemblyInfo.cs
+D:\DockerBasedApplication\DotNet-Core-REST-API\CoreRestAPI\DBLayer\obj\Debug\netcoreapp3.1\DBLayer.csproj.CoreCompileInputs.cache
+D:\DockerBasedApplication\DotNet-Core-REST-API\CoreRestAPI\DBLayer\obj\Debug\netcoreapp3.1\DBLayer.csproj.CopyComplete
+D:\DockerBasedApplication\DotNet-Core-REST-API\CoreRestAPI\DBLayer\obj\Debug\netcoreapp3.1\DBLayer.dll
+D:\DockerBasedApplication\DotNet-Core-REST-API\CoreRestAPI\DBLayer\obj\Debug\netcoreapp3.1\DBLayer.pdb

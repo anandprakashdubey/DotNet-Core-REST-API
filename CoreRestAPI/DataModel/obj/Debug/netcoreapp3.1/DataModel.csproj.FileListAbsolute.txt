@@ -6,3 +6,12 @@ D:\DotNet\API\CoreRestAPI\DataModel\obj\Debug\netcoreapp3.1\DataModel.AssemblyIn
 D:\DotNet\API\CoreRestAPI\DataModel\obj\Debug\netcoreapp3.1\DataModel.csproj.CoreCompileInputs.cache
 D:\DotNet\API\CoreRestAPI\DataModel\obj\Debug\netcoreapp3.1\DataModel.dll
 D:\DotNet\API\CoreRestAPI\DataModel\obj\Debug\netcoreapp3.1\DataModel.pdb
+D:\DockerBasedApplication\DotNet-Core-REST-API\CoreRestAPI\DataModel\bin\Debug\netcoreapp3.1\DataModel.deps.json
+D:\DockerBasedApplication\DotNet-Core-REST-API\CoreRestAPI\DataModel\bin\Debug\netcoreapp3.1\DataModel.dll
+D:\DockerBasedApplication\DotNet-Core-REST-API\CoreRestAPI\DataModel\bin\Debug\netcoreapp3.1\DataModel.pdb
+D:\DockerBasedApplication\DotNet-Core-REST-API\CoreRestAPI\DataModel\obj\Debug\netcoreapp3.1\DataModel.csprojAssemblyReference.cache
+D:\DockerBasedApplication\DotNet-Core-REST-API\CoreRestAPI\DataModel\obj\Debug\netcoreapp3.1\DataModel.AssemblyInfoInputs.cache
+D:\DockerBasedApplication\DotNet-Core-REST-API\CoreRestAPI\DataModel\obj\Debug\netcoreapp3.1\DataModel.AssemblyInfo.cs
+D:\DockerBasedApplication\DotNet-Core-REST-API\CoreRestAPI\DataModel\obj\Debug\netcoreapp3.1\DataModel.csproj.CoreCompileInputs.cache
+D:\DockerBasedApplication\DotNet-Core-REST-API\CoreRestAPI\DataModel\obj\Debug\netcoreapp3.1\DataModel.dll
+D:\DockerBasedApplication\DotNet-Core-REST-API\CoreRestAPI\DataModel\obj\Debug\netcoreapp3.1\DataModel.pdb

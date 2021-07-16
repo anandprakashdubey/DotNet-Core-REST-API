@@ -50,11 +50,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DotNet\\API\\CoreRestAPI\\CoreRestAPI\\CoreRestAPI.csproj",
+      "projectUniqueName": "D:\\DockerBasedApplication\\DotNet-Core-REST-API\\CoreRestAPI\\CoreRestAPI\\CoreRestAPI.csproj",
       "projectName": "CoreRestAPI",
-      "projectPath": "D:\\DotNet\\API\\CoreRestAPI\\CoreRestAPI\\CoreRestAPI.csproj",
+      "projectPath": "D:\\DockerBasedApplication\\DotNet-Core-REST-API\\CoreRestAPI\\CoreRestAPI\\CoreRestAPI.csproj",
       "packagesPath": "C:\\Users\\anand\\.nuget\\packages\\",
-      "outputPath": "D:\\DotNet\\API\\CoreRestAPI\\CoreRestAPI\\obj\\",
+      "outputPath": "D:\\DockerBasedApplication\\DotNet-Core-REST-API\\CoreRestAPI\\CoreRestAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\anand\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,8 +71,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\DotNet\\API\\CoreRestAPI\\DBLayer\\DBLayer.csproj": {
-              "projectPath": "D:\\DotNet\\API\\CoreRestAPI\\DBLayer\\DBLayer.csproj"
+            "D:\\DockerBasedApplication\\DotNet-Core-REST-API\\CoreRestAPI\\DBLayer\\DBLayer.csproj": {
+              "projectPath": "D:\\DockerBasedApplication\\DotNet-Core-REST-API\\CoreRestAPI\\DBLayer\\DBLayer.csproj"
             }
           }
         }
