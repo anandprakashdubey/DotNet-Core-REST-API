@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WliLdLhR7u9ynj0QjcNC9Y6vegkwZZoMAJ24wrk/BcdpxwJqKRXQb6LLXSJ+JNXDF6O04F465U/i+ZnOdpT8oQ==",
+  "dgSpecHash": "ko7T1qwpVKZ9kFxhpCwvit2N0brioTP7783kwuQudcBYFaxLyEbx81eEHKZKRuePWemtSrBdhTexVvddip7A7A==",
   "success": true,
   "projectFilePath": "D:\\DockerBasedApplication\\DotNet-Core-REST-API\\CoreRestAPI\\CoreRestAPI\\CoreRestAPI.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\anand\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
   "logs": []
 }

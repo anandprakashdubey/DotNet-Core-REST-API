@@ -1,0 +1,22 @@
+﻿Create Resource Group
+Create Web App for Container.
+In the Application, Add Docker support to Project.
+Open the command prompt and run docker build image command as -> "docker build -f Dockerfile .."
+Refer this URL for information - https://docs.microsoft.com/en-us/visualstudio/containers/container-build?view=vs-2019
+
+Once the image is being created, then run "docker images" command and observe the <none> one image
+Create repo in Docker hub like anandprakashdubey/restapi
+Add a tag to newly created image (none one) with command -> "docker tag <image id> anandprakashdubey/restapi"
+
+after that test application locally if it is working, then push the docker image to hub with below command
+ "docker push anandprakashdubey/restapi"
+
+Azure side, give the docker hub and image details
+Add azure webhook to hub.
+
+Test with Azure URL.
+
+Note: Dont forget to close or stop the resource if azure is free trial.
+
+
+

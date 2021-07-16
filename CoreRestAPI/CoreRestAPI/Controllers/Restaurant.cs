@@ -1,10 +1,6 @@
 ﻿using DBLayer;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace CoreRestAPI.Controllers
 {
@@ -16,7 +12,7 @@ namespace CoreRestAPI.Controllers
         public Restaurant(IRestaurantData RestaurantService)
         {
             this.RestaurantService = RestaurantService;
-        }      
+        }
 
         [HttpGet]
         public IActionResult GetRestaurant()
